@@ -1,3 +1,9 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .logo {
     width: 40px;
     padding: 6px;
@@ -5,7 +11,39 @@
 
 .logo-text {
     font-family: 'Kodchasan', sans-serif;    
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/assets/img-parallax.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .parallax-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+
+  @media (max-width: 767px) {
+    .parallax {
+      background-attachment: cover;
+    }
+  }
+
+
+  
