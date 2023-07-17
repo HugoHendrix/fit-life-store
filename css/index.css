@@ -80,3 +80,42 @@ body {
 h4 {
     margin-top: 1.9rem;
 }
+
+#social-links a {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+#social-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+   
+
+}#social-links a {
+    display: flex;   
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    padding: 1.6rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+#social-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+   
+
+}
+
+.container-up {
+  margin: 40px;
+  padding: 60px;
+
+}
+
+.img-thumbnail {
+  width: 80px;
+}
+
