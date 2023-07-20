@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/index.css">
   <link rel="shortcut icon" href="/assets/fav-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Fit Life Store - Sua Jornada Rumo ao Bem-Estar</title>
 </head>
 
@@ -23,9 +24,9 @@
 
   <!-- SEÇÃO DE NAVEGAÇÃO -->
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mx-auto">
       <div class="container">
-        <img src="/assets/fav-icon.png" class="logo" alt="">
+        <img src="/assets/fav-icon.png" class="logo nav-item nav-link" alt="">
         <a class="navbar-brand logo-text" href="#">Fit Life Store</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +43,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#nossos-produtos">Nossos Produtos</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/checkout.html"><i class="bi bi-cart4"></i></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -52,7 +56,7 @@
 
 
 
-  <section class="container-fluid py-5 border-top container-top">
+  <section class="container-fluid py-5 border-top container-top mx-auto">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -118,9 +122,9 @@
 
   <!-- PARALLAX -->
 
-  <div class="container-fluid">
+  <div class="container-fluid mx-auto">
     <section class="parallax">
-      <div class="parallax-content">
+      <div class="parallax-content m-auto">
         <h1>Abrace uma vida de saúde e bem-estar</h1>
         <p>Transforme seu corpo e mente com a Fit Life Store.</p>
       </div>
@@ -138,7 +142,7 @@
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card shadow-effect">
-            <img src="/assets/nosso-time-membro01.jpg" class="card-img-top rounded-circle img-fluid" alt="Foto do membro do time">
+            <img src="/assets/nosso-time-membro01.jpg" class="card-img-top img-fluid" alt="Foto do membro do time">
             <div class="card-body">
               <h5 class="card-title"><strong>Maria Santos</strong></h5>
               <p class="card-text text-shadow-effect"><strong>Nutricionista</strong> <br> Maria é uma nutricionista dedicada e comprometida
@@ -149,7 +153,7 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card shadow-effect">
-            <img src="/assets/nosso-time-membro02.jpg" class="card-img-top rounded-circle" alt="Foto do membro do time">
+            <img src="/assets/nosso-time-membro02.jpg" class="card-img-top" alt="Foto do membro do time">
             <div class="card-body">
               <h5 class="card-title text-shadow-effect"><strong>Pedro Oliveira</strong></h5>
               <p class="card-text text-shadow-effect"><strong>Gerente de Vendas</strong> <br>
@@ -161,13 +165,13 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card shadow-effect">
-            <img src="/assets/nosso-time-membro03.jpg" class="card-img-top rounded-circle" alt="Foto do membro do time">
+            <img src="/assets/nosso-time-membro03.jpg" class="card-img-top" alt="Foto do membro do time">
             <div class="card-body ">
               <h5 class="card-title text-shadow-effect"><strong>Lucas Silva</strong></h5>
               <p class="card-text text-shadow-effect"><strong>Personal Trainer</strong> <br>
                 Com vasta experiência em treinamento físico, Lucas é especializado em criar programas personalizados
                 para ajudar os clientes a alcançarem seus objetivos de fitness. Sua paixão pela saúde e motivação
-                contagiam todos ao seu redor..</p>
+                contagiam todos ao seu redor.</p>
             </div>
           </div>
         </div>
@@ -177,11 +181,12 @@
 
   <!-- PARALLAX -->
 
-  <div class="container-fluid">
+  <div class="container-fluid mx-auto">
     <section class="parallax1">
-      <div class="parallax-content1">
+      <div class="parallax-content1 mx-auto">
         <h2 class="text-shadow-effect">Transforme sua vida</h2>
-        <p class="text-shadow-effect"> Abraçe a saúde e o bem-estar com determinação e paixão </p>
+        <p class="text-shadow-effect"> Abraçe a saúde e o bem-estar com determinação e paixão. <br> Conte com a Fit Life Store. </p>
+        
       </div>
     </section>
 
@@ -495,7 +500,7 @@
 
     <!-- CONTATO E LOCALIZAÇÃO  -->
 
-    <section id="contato" class="container-fluid section-contato py-5 border-top  container-up">
+    <section id="contato" class="container-fluid section-contato py-5 border-top  container-up ">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -579,8 +584,8 @@
       <div class="col-md-6">
         <h5>Menu</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Política de Privacidade</a></li>
-          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="/politica-de-privacidade.html">Política de Privacidade</a></li>
+          <li><a href="/termos-de-uso.html">Termos de Uso</a></li>
           <li><a href="#faq">Perguntas Frequentes</a></li>
         </ul>
       </div>
@@ -612,7 +617,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
-        <button type="button" class="btn btn-success">Finalizar a compra</button>
+        <a href="/checkout.html" type="link" class="btn btn-success">Finalizar a compra</a>
       </div>
     </div>
   </div>
