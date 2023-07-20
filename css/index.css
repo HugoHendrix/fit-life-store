@@ -56,7 +56,11 @@ body {
 
     .container-top {
         margin-top: 110px;
-    }    
+    }  
+    
+    .mapa, .section-faq {
+      display: none;
+    }
   }
 
 
