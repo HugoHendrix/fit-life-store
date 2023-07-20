@@ -95,14 +95,16 @@
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <label for="firstName" class="form-label">Nome</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                    <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                        required>
                                     <div class="invalid-feedback">
                                         Esse campo é obrigatório.
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="lastName" class="form-label">Sobrenome</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                        required>
                                     <div class="invalid-feedback">
                                         Esse campo é obrigatório.
                                     </div>
@@ -111,8 +113,8 @@
                                     <label for="username" class="form-label">Nome de usuário</label>
                                     <div class="input-group has-validation">
                                         <span class="input-group-text">@</span>
-                                        <input type="text" class="form-control" id="username" placeholder="Insira seu nome de usuário"
-                                            required>
+                                        <input type="text" class="form-control" id="username"
+                                            placeholder="Insira seu nome de usuário" required>
                                         <div class="invalid-feedback">
                                             Esse campo é obrigatório.
 
@@ -124,13 +126,13 @@
                                             class="text-body-secondary">(Opcional)</span></label>
                                     <input type="email" class="form-control" id="email" placeholder="Insira seu e-mail">
                                     <div class="invalid-feedback">
-                                     Insira um enderço de e-mail válido para futuras ofertas
+                                        Insira um enderço de e-mail válido para futuras ofertas
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <label for="address" class="form-label">Endereço</label>
-                                    <input type="text" class="form-control" id="address" placeholder="Av dos Desenvolvedores 1994"
-                                        required>
+                                    <input type="text" class="form-control" id="address"
+                                        placeholder="Av dos Desenvolvedores 1994" required>
                                     <div class="invalid-feedback">
                                         Insira endereço de cobrança válido.
                                     </div>
@@ -138,7 +140,8 @@
                                 <div class="col-12">
                                     <label for="address2" class="form-label">Endereço 2 <span
                                             class="text-body-secondary">(Optional)</span></label>
-                                    <input type="text" class="form-control" id="address2" placeholder="Apartmento ou suite">
+                                    <input type="text" class="form-control" id="address2"
+                                        placeholder="Apartmento ou suite">
                                 </div>
                                 <div class="col-md-5">
                                     <label for="country" class="form-label">País</label>
@@ -191,42 +194,47 @@
                                         <option>Santa Catarina</option>
                                         <option>São Paulo</option>
                                         <option>Sergipe</option>
-                                        <option>Tocantins</option>                                    </select>
+                                        <option>Tocantins</option>
+                                    </select>
                                     <div class="invalid-feedback">
-                                      Por insira um estato válido
+                                        Por insira um estato válido
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <label for="zip" class="form-label">CEP</label>
                                     <input type="text" class="form-control" id="zip" placeholder="" required>
                                     <div class="invalid-feedback">
-                                       Cep é obrigatório
+                                        Cep é obrigatório
                                     </div>
                                 </div>
                             </div>
                             <hr class="my-4">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="same-address">
-                                <label class="form-check-label" for="same-address">Enderço de entrega é o mesmo endereço da cobrança</label>
+                                <label class="form-check-label" for="same-address">Enderço de entrega é o mesmo endereço
+                                    da cobrança</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="save-info">
-                                <label class="form-check-label" for="save-info">Salve essa opção para compras futuras</label>
+                                <label class="form-check-label" for="save-info">Salve essa opção para compras
+                                    futuras</label>
                             </div>
                             <hr class="my-4">
                             <h4 class="mb-3">Pagamento</h4>
                             <div class="my-3">
                                 <div class="form-check">
-                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked
-                                        required>
+                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input"
+                                        checked required>
                                     <label class="form-check-label" for="credit">Cartão de crédito</label>
                                 </div>
                                 <div class="form-check">
-                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
                                     <label class="form-check-label" for="debit">Cartão de Débito</label>
                                 </div>
                                 <div class="form-check">
-                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
                                     <label class="form-check-label" for="paypal">PayPal</label>
                                 </div>
                             </div>
@@ -236,7 +244,7 @@
                                     <input type="text" class="form-control" id="cc-name" placeholder="" required>
                                     <small class="text-body-secondary">Nome completo apresentado no cartão</small>
                                     <div class="invalid-feedback">
-                                       Nome do cartão é obrigatório
+                                        Nome do cartão é obrigatório
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -249,19 +257,20 @@
                                 <div class="col-md-3">
                                     <label for="cc-expiration" class="form-label">Expiração</label>
                                     <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                                    <div class="invalid-feedback"> Data da expiração é obrigatório   
-                                 </div>
+                                    <div class="invalid-feedback"> Data da expiração é obrigatório
+                                    </div>
                                 </div>
                                 <div class="col-md-3">
                                     <label for="cc-cvv" class="form-label">CVV</label>
                                     <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
                                     <div class="invalid-feedback">
-                                      Código de segurança é obrigatório
+                                        Código de segurança é obrigatório
                                     </div>
                                 </div>
                             </div>
                             <hr class="my-4">
-                            <button class="w-100 btn btn-primary btn-lg shadow-effect" type="submit">Continue com o pagamento</button>
+                            <button class="w-100 btn btn-primary btn-lg shadow-effect" type="submit">Continue com o
+                                pagamento</button>
                         </form>
                         <br>
                     </div>
@@ -301,7 +310,7 @@
 
         <br>
 
-        
+
 
     </div>
 
