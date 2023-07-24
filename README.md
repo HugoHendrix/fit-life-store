@@ -4,7 +4,8 @@ Bem-vindo ao repositório da Fit Life Store!
 
 ## Sobre o Projeto
 
-A Fit Life Store é uma loja virtual de produtos fitness e bem-estar, que oferece uma variedade de roupas e suplementos alimentares voltados para um estilo de vida saudável. Além disso, a loja também oferece serviços de treinamento personalizado, consultorias de nutrição e programas de exercícios online.
+Bem-vindo ao repositório da Fit Life Store! Este é o projeto final desenvolvido como parte da avaliação da bolsa concedida pelo renomado Instituto Nu em parceria com a plataforma Descomplica. Aqui, oferecemos uma loja virtual de produtos fitness e bem-estar, dedicada a impulsionar seu estilo de vida saudável e ativo.
+
 
 ## Tecnologias Utilizadas
 
