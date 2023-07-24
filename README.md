@@ -1,4 +1,5 @@
 # Fit Life Store
+![App Screenshot](https://github.com/HugoHendrix/fit-life-store/blob/main/assets/gym-banner01.png?raw=true)
 
 Bem-vindo ao repositório da Fit Life Store!
 
