@@ -13,16 +13,23 @@
     <meta name="description"
         content="Fit Life Store - Seu estilo de vida saudável. Encontre uma ampla variedade de suplementos alimentares, equipamentos de fitness, produtos naturais e cuidados pessoais para promover o seu bem-estar.">
     <meta name="author" content="Hugo Hendrix">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="./assets/fav-icon.png" type="image/x-icon">
     <title>Fit Life Store - Sua Jornada Rumo ao Bem-Estar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body class="container-fluid">
 
     <!-- SEÇÃO DE NAVEGAÇÃO -->
-    <header class="bg-dark text-white text-center">
+    <header class="bg-dark text-white text-center container-fluid">
         <div class="container">
             <img src="./assets/fav-icon.png" title="Voltar a página principal" class="logo nav-item" style="width:4rem;"
                 alt="Logo da Fit Life Store">
@@ -38,56 +45,162 @@
             <div class="py-5 text-center">
                 <img class="d-block mx-auto mb-4" src="./assets/Cart-PNG-Clipart.png"
                     alt="Imagem de carrinho de compras cheio" width="92" height="87">
-                <h2>Procedimento de pagamento</h2>
+                <h2>Bem vindo a Fit Life Store!</h2>
             </div>
+
+
+            <!-- CARRINHO DE COMPRAS -->
+
+            <div class="container py-5">
+                <h2 class="mb-4">Nossos produtos</h2>
+                <div class="row">
+                  <!-- Produtos -->
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/gym-product-plus-size.png" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Conjunto Power Move</h5>
+                        <p class="card-text">Linha Plus Size</p>
+                        <p class="card-text">Valor: R$ 249,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 249.90)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/gym-product-plus-size2.png" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Conjunto Energy Boost</h5>
+                        <p class="card-text">Linha Plus Size</p>
+                        <p class="card-text">Valor: R$ 229,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 229.90)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/gym-product-plus-size3.png" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Conjunto Flex Active</h5>
+                        <p class="card-text">Linha Plus Size</p>
+                        <p class="card-text">Valor: R$ 199,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 199.90)">Adicionar ao Carrinho</button>
+
+                        
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!-- Adicione mais 8 produtos aqui -->
+
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/way-protein.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Way Protein Gold: A proteína de alto desempenho
+                        </h5>
+                        <p class="card-text">Total Shake</p>
+                        <p class="card-text">Valor: R$ 179,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 179.90)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/way-protein2.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Way Protein Vegan: A proteína vegetal completa
+                        </h5>
+                        <p class="card-text">Total Shake</p>
+                        <p class="card-text">Valor: R$ 169,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 169.90)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/way-protein3.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Way Protein Energy: A proteína para uma energia duradoura
+
+                        </h5>
+                        <p class="card-text">Total Shake</p>
+                        <p class="card-text">Valor: R$ 199,90</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 199.90)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/personal-trainer.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Treinamento Personalizado
+
+                        </h5>
+                        <p class="card-text">Elite Performance</p>
+                        <p class="card-text">Valor: R$ 600,00</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 600.00)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="card h-100">
+                      <img src="./assets/health-food.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Consultorias de Nutrição
+
+                        </h5>
+                        <p class="card-text">Elite Performance</p>
+                        <p class="card-text">Valor: R$ 400,00</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 400.00)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-3 mb-3">
+                    <div class="card h-100">
+                      <img src="./assets/on-line-gym.jpg" class="card-img-top" alt="Produto 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Programas de Exercícios Online
+
+                        </h5>
+                        <p class="card-text">Elite Performance</p>
+                        <p class="card-text">Valor: R$ 200,00</p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Conjunto Power Move', 200.00)">Adicionar ao Carrinho</button></div>
+                    </div>
+                  </div>
+
+                  
+            
+                </div>
+            
+                <!-- Carrinho -->
+                <div class="row mt-5">
+                  <div class="col-lg-8">
+                    <h3>Carrinho</h3>
+                    <ul class="list-group" id="itensCarrinho">
+                        <!-- Itens do Carrinho serão inseridos aqui -->
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Total</h5>
+                        <p class="card-text">Valor Total: R$ <span id="total">0,00</span></p>
+                        <button class="btn btn-primary">Finalizar Compra</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="container-sm">
                 <div class="row g-5">
                     <div class="col-md-5 col-lg-4 order-md-last">
-                        <h4 class="d-flex justify-content-between align-items-center mb-3">
-                            <span class="text-primary">Seu carrinho</span>
-                            <span class="badge bg-primary rounded-pill">3</span>
-                        </h4>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item d-flex justify-content-between lh-sm">
-                                <div>
-                                    <h6 class="my-0">Nome do produto</h6>
-                                    <small class="text-body-secondary">Descrição do produto</small>
-                                </div>
-                                <span class="text-body-secondary">R$12</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between lh-sm">
-                                <div>
-                                    <h6 class="my-0">Segundo produto</h6>
-                                    <small class="text-body-secondary">Descrição do produto</small>
-                                </div>
-                                <span class="text-body-secondary">R$8</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between lh-sm">
-                                <div>
-                                    <h6 class="my-0">Terceiro produto</h6>
-                                    <small class="text-body-secondary">Descrição do produto</small>
-                                </div>
-                                <span class="text-body-secondary">R$5</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-                                <div class="text-success">
-                                    <h6 class="my-0">Código promocional</h6>
-                                    <small>CÓDIGO EXEMPLO</small>
-                                </div>
-                                <span class="text-success">R$5</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between">
-                                <span>Total</span>
-                                <strong>R$30</strong>
-                            </li>
-                        </ul>
-                        <form class="card p-2">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Código promocional">
-                                <button type="submit" class="btn btn-secondary">Resgatar</button>
-                            </div>
-                        </form>
+                      
+                        
+                        
                     </div>
                     <div class="col-md-7 col-lg-8">
                         <h4 class="mb-3">Endereço de cobrança</h4>
@@ -139,9 +252,9 @@
                                 </div>
                                 <div class="col-12">
                                     <label for="address2" class="form-label">Endereço 2 <span
-                                            class="text-body-secondary">(Optional)</span></label>
+                                            class="text-body-secondary">(Opcional)</span></label>
                                     <input type="text" class="form-control" id="address2"
-                                        placeholder="Apartmento ou suite">
+                                        placeholder="Apartamento ou suite">
                                 </div>
                                 <div class="col-md-5">
                                     <label for="country" class="form-label">País</label>
@@ -269,7 +382,7 @@
                                 </div>
                             </div>
                             <hr class="my-4">
-                            <button class="w-100 btn btn-primary btn-lg shadow-effect" type="submit">Continue com o
+                            <button class="w-100 btn btn-primary btn-lg shadow-effect" type="#">Continue com o
                                 pagamento</button>
                         </form>
                         <br>
